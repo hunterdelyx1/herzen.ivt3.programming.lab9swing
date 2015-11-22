@@ -19,10 +19,6 @@ public class SwingApp extends JFrame {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         Container pane = this.getContentPane();
 
-        JButton b = new JButton("Just fake button");
-        Dimension tmp = b.getPreferredSize();
-        Dimension buttonSize = new Dimension((int)(tmp.getWidth() * 2.5), (int)(tmp.getHeight() * 3.5));
-
         JPanel topPanel = new JPanel();
         //topPanel.setAlignmentX(CENTER_ALIGNMENT);
         Button btmp = new Button("Start");
